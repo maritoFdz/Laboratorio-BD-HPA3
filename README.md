@@ -35,7 +35,9 @@ Otro elemento importante del proyecto es el manejo de imágenes. El usuario pued
 
   El formulario configura las columnas para mostrar el ID, producto, precio, cantidad e imagen. Para las imágenes se utiliza un `DataGridViewImageColumn`, configurado para mostrar las fotografías mediante un diseño de tipo `Zoom`.
 
-  <img width="1350" height="722" alt="Interfaz principal del sistema" src="AQUI_COLOCA_LA_CAPTURA_PRINCIPAL" />
+  <img width="713" height="626" alt="Screenshot 2026-10-05 110611" src="https://github.com/user-attachments/assets/45c08c47-37b6-45d7-a279-c96b4b9bc066" />
+
+
 
 * **Consulta y búsqueda de productos:** La aplicación cuenta con un campo de búsqueda que permite filtrar los productos. Cada vez que cambia el contenido de `txtBusqueda`, se ejecuta el evento `txtBusqueda_TextChanged()`, que llama nuevamente a `cargarProductos()` utilizando el texto ingresado como filtro.
 
@@ -43,7 +45,11 @@ Otro elemento importante del proyecto es el manejo de imágenes. El usuario pued
 
   Esto permite consultar los registros sin tener que recargar manualmente la aplicación.
 
-  <img width="1350" height="722" alt="Búsqueda de productos" src="AQUI_COLOCA_LA_CAPTURA_DE_BUSQUEDA" />
+  <img width="703" height="613" alt="Screenshot 2026-10-05 110932" src="https://github.com/user-attachments/assets/1da33775-97f4-47b1-8453-bdc01b64f638" />
+  
+  <img width="710" height="620" alt="Screenshot 2026-10-05 110938" src="https://github.com/user-attachments/assets/b65e5c8f-3814-40d2-883d-5b992c4e3127" />
+
+  
 
 * **Registro de productos:** Para agregar un producto se deben introducir el nombre, precio y cantidad. También se puede seleccionar una imagen mediante el control `PictureBox`.
 
@@ -55,7 +61,9 @@ Otro elemento importante del proyecto es el manejo de imágenes. El usuario pued
 
   Finalmente, `Conexion.InsertSeguro()` ejecuta la operación `INSERT` en la tabla `productos`.
 
-  <img width="1350" height="722" alt="Registro de productos" src="AQUI_COLOCA_LA_CAPTURA_DE_REGISTRO" />
+  <img width="709" height="621" alt="Screenshot 2026-10-05 110707" src="https://github.com/user-attachments/assets/46835353-7b88-4b9a-a51e-c06a0a388776" />
+  <img width="710" height="618" alt="Screenshot 2026-10-05 110742" src="https://github.com/user-attachments/assets/e82b8fd7-ac21-4516-a912-1d1fde98e71a" />
+
 
 * **Modificación de productos:** Para modificar un producto, primero se debe seleccionar un registro del `DataGridView`. El evento `dgvProductos_CellClick()` obtiene el ID del producto seleccionado y carga sus datos nuevamente en los campos del formulario.
 
@@ -65,7 +73,9 @@ Otro elemento importante del proyecto es el manejo de imágenes. El usuario pued
 
   Después de una modificación exitosa, los campos se limpian y el `DataGridView` se actualiza para mostrar la información actualizada.
 
-  <img width="1350" height="722" alt="Modificación de productos" src="AQUI_COLOCA_LA_CAPTURA_DE_MODIFICACION" />
+  <<img width="718" height="624" alt="Screenshot 2026-10-05 110759" src="https://github.com/user-attachments/assets/db6c1dfd-f15e-4c67-9e26-d6bbd66876fa" />
+<img width="711" height="620" alt="Screenshot 2026-10-05 110804" src="https://github.com/user-attachments/assets/2eb7c043-49c7-44f1-b4b9-8ad0eb78b3b4" />
+
 
 * **Eliminación de productos:** La aplicación permite eliminar productos seleccionados desde el `DataGridView`.
 
@@ -75,7 +85,8 @@ Otro elemento importante del proyecto es el manejo de imágenes. El usuario pued
 
   Después de eliminar el registro, se limpian los campos y se vuelve a cargar la información de la base de datos.
 
-  <img width="1350" height="722" alt="Eliminación de productos" src="AQUI_COLOCA_LA_CAPTURA_DE_ELIMINACION" />
+  <img width="705" height="618" alt="Screenshot 2026-10-05 110817" src="https://github.com/user-attachments/assets/9ab7b99c-84ab-40e9-8121-d6bf9240c8f2" />
+
 
 ### Conexión con la Base de Datos
 
